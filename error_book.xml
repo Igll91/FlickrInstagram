@@ -1,0 +1,37 @@
+<error_book>
+
+    <error>
+
+        <id>
+            Err#1
+        </id>
+
+        <description>
+            Application err#1: No such source name! contact developers!"
+            
+            Check Tag value passed by button in MainActivity layout xml file.
+        </description>
+
+        <cause>
+            If string passed by buttons tag isn't listed in enum "ImageSourceName"
+        </cause>
+    </error>
+
+    <error>
+
+        <id>
+            Err#2
+        </id>
+
+        <description>
+            Err#2 flickr response failed: contact developer"
+            
+            Check The message composed in Flickr class!
+        </description>
+
+        <cause>
+            If response received from flickr didn't passed/has errors in it.
+        </cause>
+    </error>
+
+</error_book>
